@@ -1,4 +1,4 @@
-package pl.moja.biblioteczka;
+package com.my.library;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +19,7 @@ public class Main extends Application {
         BorderPane borderPane = loader.load();
         Scene scene = new Scene(borderPane);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Moja biblioteczka");
+        primaryStage.setTitle("My Library");
         primaryStage.show();
 
     }
