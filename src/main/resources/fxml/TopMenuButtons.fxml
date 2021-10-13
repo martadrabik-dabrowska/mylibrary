@@ -9,9 +9,12 @@
    <children>
       <ToggleButton mnemonicParsing="false" onAction="#openLibrary" prefHeight="80.0" prefWidth="150.0" text="%library">
          <toggleGroup>
+            <ToggleGroup fx:id="toggleButtons" />
+         </toggleGroup></ToggleButton>
+      <ToggleButton mnemonicParsing="false" onAction="#openListbooks" prefHeight="80.0" prefWidth="150.0" text="%list.books">
+         <toggleGroup>
             <ToggleGroup fx:id="ToggleButtons" />
          </toggleGroup></ToggleButton>
-      <ToggleButton mnemonicParsing="false" onAction="#openListbooks" prefHeight="80.0" prefWidth="150.0" text="%list.books" toggleGroup="$ToggleButtons" />
       <ToggleButton mnemonicParsing="false" onAction="#openStatistics" prefHeight="80.0" prefWidth="150.0" text="%stats" toggleGroup="$ToggleButtons" />
       <Button mnemonicParsing="false" onAction="#addBook" prefHeight="80.0" prefWidth="150.0" text="%add.book">
          <graphic>
